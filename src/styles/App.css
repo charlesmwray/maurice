@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import 'Grid.css';
+
+body {
+    background: #222;
+    background: linear-gradient(to right, #da4453, #89216b);
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    /* https://uigradients.com/#Quepal */
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.App {
+    margin: 0 auto;
+}
+
+.header {
+    padding: 1rem;
+    background-color: rgba(255,255,255,.2);
+    display: flex;
+}
+
+.header .profile {
+    flex-grow: 1;
+}

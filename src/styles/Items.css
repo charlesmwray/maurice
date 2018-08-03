@@ -1,0 +1,64 @@
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-container {
+    min-width: 45vw;
+}
+
+.item {
+    display: flex;
+}
+
+.name {
+    flex-grow: 1;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.actions {
+    opacity: 0;
+    text-align: right;
+    color: #fff;
+    transition: .3s opacity linear;
+}
+.item-container:hover .actions {
+    opacity: 1;
+}
+
+.channel {
+    padding: 2px 4px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.channel.netflix {
+    background-color: #b9090b;
+}
+.channel.rental {
+    background-color: green;
+}
+.channel.hulu {
+    background-color: #48c083;
+}
+.channel.showtime {
+    background-color: #b20000;
+}
+.channel.hbo {
+    background-color: #222;
+}
+.channel.comedy-central {
+    background-color: #ed4984;
+}
+.channel.amazon {
+    background-color: #01aae1;
+}
+.channel.fx {
+    background-color: #000;
+}
